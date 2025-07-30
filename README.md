@@ -66,9 +66,10 @@ my-vue-app/
 └── README.md             # Project documentation
 
 # Vue.js Components (5 Key Points)
+What are Components?
 
-##What are Components?
 Components are reusable and independent blocks of UI in Vue (e.g., buttons, cards, headers), defined in .vue files with <template>, <script>, and <style>.
+
 
 Types of Components
 
@@ -76,13 +77,14 @@ Global components: Registered using app.component() and used anywhere.
 
 Local components: Imported and registered inside other components.
 
-##Props (Data Passing)
+Props (Data Passing)
+
 Components receive external data from parent via props, allowing dynamic rendering.
 
 Emits (Event Handling)
 Child components can send data back to the parent using the emit function (e.g., emit('clicked')).
 
-##Component Communication
+Component Communication
 
 Parent to Child → via props
 
