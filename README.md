@@ -94,5 +94,9 @@ Child to Parent → via emit
 Sibling components → use global state (Vuex/Pinia) or event bus
 
 
+# Text Interpolation
+
+The most basic form of data binding is text interpolation using the "Mustache" syntax (double curly braces):
+
 
 
