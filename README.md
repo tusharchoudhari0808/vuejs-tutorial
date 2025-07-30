@@ -27,3 +27,17 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# Introduction
+## What is Vue js ?
+###  Vue.js is a progressive JavaScript framework for building user interfaces and single-page applications (SPAs).
+
+It uses a component-based architecture and supports reactive data binding for dynamic UI updates.
+
+Vue is easy to learn, combining HTML, CSS, and JavaScript in single-file .vue components.
+
+It provides built-in features like directives (v-if, v-for, v-model) and tools like Vue CLI, Vue Router, and Vuex.
+
+Vue is lightweight, flexible, and backed by a strong community with excellent documentation.
+
+
