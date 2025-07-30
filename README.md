@@ -65,6 +65,39 @@ my-vue-app/
 ├── babel.config.js       # Babel config (if using Vue CLI)
 └── README.md             # Project documentation
 
+# Main File 
+
+
+
+import { createApp } from 'vue'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+
+
+# App.vue
+
+<script setup>
+import Counter from './components/Counter.vue';
+
+</script>
+
+<template>
+  <h1 class="h">Tushar CFhoudhari</h1>
+  
+<Counter/>
+
+</template>
+
+<style scoped>
+.h{
+background-color: aqua;
+}
+</style>
+
+
+
+
 # Vue.js Components (5 Key Points)
 What are Components?
 
@@ -92,3 +125,29 @@ Child to Parent → via emit
 
 Sibling components → use global state (Vuex/Pinia) or event bus
 
+
+counter.js 
+
+<script setup >
+import { ref } from 'vue';
+
+const count = ref(0);
+
+const incriment = () =>{
+  count.value++;
+}
+</script>
+
+
+<template>
+<div>
+    <h1>Counter </h1>
+    <p>count: {{ count }}</p>
+    <button @click ="incriment"> + </button>
+</div>
+</template>
+
+
+<style>
+
+</style>
